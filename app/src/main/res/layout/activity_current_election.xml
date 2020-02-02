@@ -7,19 +7,19 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="249dp"
+        android:layout_height="341dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="303dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginRight="151dp"
-        android:text="hewwo" />
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:text="Election Day will be Tuesday, March 3, 2020 from 7:00 a.m. to 7:00 p.m.\n\nEarly Voting period will be from Tuesday, February 18, 2020 through Friday, February 28, 2020." />
 
     <Button
         android:id="@+id/button2"

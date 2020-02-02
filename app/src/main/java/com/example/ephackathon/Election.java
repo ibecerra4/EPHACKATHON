@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Election extends AppCompatActivity {
     private Button buttonCE;
-    private Button buttonED;
+    private Button buttonB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,16 +24,16 @@ public class Election extends AppCompatActivity {
             }
         });
 
-        buttonED = (Button) findViewById(R.id.buttonED);
-        buttonED.setOnClickListener(new View.OnClickListener() {
+        buttonB = (Button) findViewById(R.id.buttonB);
+        buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                openElectionDates();
+                openBills();
             }
         });
     }
 
-    public void openElectionDates(){
+    public void openBills(){
         Intent intent;
         intent = new Intent(this, ElectionDate.class);
         startActivity(intent);

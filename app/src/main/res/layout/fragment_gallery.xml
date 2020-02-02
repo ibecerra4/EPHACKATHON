@@ -30,7 +30,7 @@
         android:text="Current Elections" />
 
     <Button
-        android:id="@+id/buttonED"
+        android:id="@+id/buttonB"
         android:layout_width="207dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -39,6 +39,6 @@
         android:layout_marginEnd="84dp"
         android:layout_marginRight="84dp"
         android:layout_marginBottom="318dp"
-        android:text="Election Dates" />
+        android:text="Bills" />
 
 </RelativeLayout>

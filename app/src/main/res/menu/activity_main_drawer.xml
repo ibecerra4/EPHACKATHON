@@ -11,10 +11,10 @@
             android:id="@+id/nav_gallery"
             android:title="Election" />
         <item
-            android:id="@+id/nav_howto"
+            android:id="@+id/nav_slideshow"
             android:title="HOW TO POLITIC" />
         <item
-            android:id="@+id/nav_localGov"
+            android:id="@+id/nav_tools"
             android:title="Local Government" />
     </group>
 

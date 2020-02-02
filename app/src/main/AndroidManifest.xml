@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LocalGov"></activity>
+        <activity android:name=".ui.tools.LocalGov" />
         <activity android:name=".ElectionDate" />
         <activity android:name=".CurrentElection" />
         <activity android:name=".Election" />
